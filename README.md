@@ -2,16 +2,20 @@
 
 1. check maven version:
 - Maven installation size:
+```bash
 du -sh /opt/homebrew/Cellar/maven/*
+```
 
 2. Create new version(start from version/ver{i|i=1-9}/ e.g. version/ver1/ replace DartifactId):
+```bash
 mvn archetype:generate \
     -DgroupId=huim \
     -DartifactId=ver{i}_{0-9} \
     -DarchetypeArtifactId=maven-archetype-quickstart \
     -DinteractiveMode=false
+```
 
-3. Object-Oriented-TopK-HUIM-Pos-Neg is the root: go tp version/ver{i}/ver{i}_{0-9}
+4. Object-Oriented-TopK-HUIM-Pos-Neg is the root: go tp version/ver{i}/ver{i}_{0-9}
 
 - To compile/build:
 ```bash
