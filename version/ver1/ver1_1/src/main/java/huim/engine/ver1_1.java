@@ -1,5 +1,3 @@
-package engine;
-
 import core.*;
 import java.io.*;
 import java.util.*;
