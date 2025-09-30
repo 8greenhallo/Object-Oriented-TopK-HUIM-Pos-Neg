@@ -247,7 +247,7 @@ public class MiningEngine {
             
             // Memory monitoring
             if (config.isMemoryMonitoringEnabled() && 
-                candidatesGenerated % config.getMemoryCheckInterval() == 0) {
+                (i + 1) % config.getMemoryCheckInterval() == 0) {
                 monitorMemoryUsage();
             }
         }
