@@ -8,8 +8,8 @@ import java.util.*;
  * This class implements the core pruning techniques used to reduce the search space
  * while maintaining correctness and completeness of the mining algorithm.
  * 
- * @author Research Team
- * @version 1.1 - OOP Framework
+ * @author Meg
+ * @version 1.1
  */
 public class PruningStrategy {
     private final Configuration config;
