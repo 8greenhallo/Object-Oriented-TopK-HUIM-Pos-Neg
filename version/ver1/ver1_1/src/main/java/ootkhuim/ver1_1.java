@@ -16,8 +16,8 @@ import java.util.*;
  * - Detailed logging and statistics
  * - Maintainable and extensible architecture
  * 
- * @author Research Team
- * @version 1.1 - OOP Framework
+ * @author Meg
+ * @version 1.1
  */
 public class ver1_1 {
     
