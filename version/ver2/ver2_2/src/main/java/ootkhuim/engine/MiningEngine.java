@@ -319,19 +319,19 @@ public class MiningEngine {
             System.out.println("Progress: " + (i + 1) + "/" + sortedItems.size() + " items processed.");
 
             // Monitor memory usage
-            if (config.isMemoryMonitoringEnabled()) {
-                if (i % config.getMemoryCheckInterval() == 0 || 
-                    i == sortedItems.size()) {
-                    long usedMemory = Runtime.getRuntime().totalMemory() - 
-                                    Runtime.getRuntime().freeMemory();
-                    peakMemoryUsage = Math.max(peakMemoryUsage, usedMemory);
+            if (config.isMemoryMonitoringEnabled() &&
+                i % config.getMemoryCheckInterval() == 0 || 
+                i == sortedItems.size()) {
                     
-                    //System.out.print("[LOG] Memory check: " + (usedMemory / 1024 / 1024) + " MB.\n");
+                long usedMemory = Runtime.getRuntime().totalMemory() - 
+                                Runtime.getRuntime().freeMemory();
+                peakMemoryUsage = Math.max(peakMemoryUsage, usedMemory);
+                
+                //System.out.print("[LOG] Memory check: " + (usedMemory / 1024 / 1024) + " MB.\n");
 
-                    if (usedMemory > Configuration.MAX_MEMORY_USAGE) {
-                        System.out.println("[WARNING] Memory limit exceeded. Stopping mining.");
-                        break;
-                    }
+                if (usedMemory > Configuration.MAX_MEMORY_USAGE) {
+                    System.out.println("[WARNING] Memory limit exceeded. Stopping mining.");
+                    break;
                 }
             }
 
