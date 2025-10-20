@@ -1,4 +1,4 @@
-# OOTK-HUIM: Object-Oriented solution for Top-K High-Utility Itemset Mining from Uncertain Databases
+# OOTKHUIMUNPN: Object-Oriented solutions to the problem of Top-K High-Utility Itemsets Mining from UNcertain databases with both Positive and Negative utilities
 
 1. check maven version:
 - Maven installation size:
