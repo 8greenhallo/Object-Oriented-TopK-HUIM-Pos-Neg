@@ -9,7 +9,7 @@ du -sh /opt/homebrew/Cellar/maven/*
 2. Create new version(start from version/ver{i|i=1-9}/ e.g. version/ replace DartifactId):
 ```bash
 mvn archetype:generate \
-    -DgroupId=ootkhuimunpn \
+    -DgroupId=ootkhuimunpnu \
     -DartifactId=ver{i}_{0-9} \
     -DarchetypeArtifactId=maven-archetype-quickstart \
     -DinteractiveMode=false
