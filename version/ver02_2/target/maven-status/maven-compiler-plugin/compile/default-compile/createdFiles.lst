@@ -1,0 +1,12 @@
+engine/PruningStrategy.class
+ver02_2.class
+core/Transaction$EnhancedTransaction.class
+engine/MiningEngine.class
+core/UtilityList$Element.class
+core/UtilityList.class
+engine/Configuration$Builder.class
+engine/MiningEngine$TempElement.class
+core/TopKManager.class
+engine/Configuration.class
+core/Itemset.class
+core/Transaction.class
