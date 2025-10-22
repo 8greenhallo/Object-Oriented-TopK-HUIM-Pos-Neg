@@ -1,5 +1,7 @@
-import core.*;
-import engine.*;
+package ootkhuimunpnu.ver02;
+
+import ootkhuimunpnu.ver02.core.*;
+import ootkhuimunpnu.ver02.engine.*;
 
 import java.io.*;
 import java.util.*;

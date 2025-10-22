@@ -1,4 +1,4 @@
-package core;
+package ootkhuimunpnu.ver02.core;
 
 import java.util.*;
 import java.util.stream.Collectors;

@@ -1,6 +1,6 @@
-package engine;
+package ootkhuimunpnu.ver02_2.engine;
 
-import core.UtilityList;
+import ootkhuimunpnu.ver02_2.core.UtilityList;
 
 /**
  * Pruning strategies for the mining algorithm

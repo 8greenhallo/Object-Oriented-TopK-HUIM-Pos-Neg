@@ -1,12 +1,10 @@
-package engine;
+package ootkhuimunpnu.ver02.engine;
 
-import core.*;
-import core.Transaction.*;
-import core.Itemset;
-import core.TopKManager;
-import core.Transaction;
-import core.Transaction.EnhancedTransaction;
-import core.UtilityList;
+import ootkhuimunpnu.ver02.core.Itemset;
+import ootkhuimunpnu.ver02.core.TopKManager;
+import ootkhuimunpnu.ver02.core.Transaction;
+import ootkhuimunpnu.ver02.core.Transaction.EnhancedTransaction;
+import ootkhuimunpnu.ver02.core.UtilityList;
 
 import java.util.*;
 import java.util.stream.Collectors;

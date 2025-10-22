@@ -1,4 +1,4 @@
-package core;
+package ootkhuimunpnu.ver01_2.core;
 
 import java.util.*;
 
