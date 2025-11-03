@@ -1,31 +1,27 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  
+<?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  
   <groupId>ootkhuimunpn</groupId>
   <artifactId>Object-Oriented-TopK-HUIM-Pos-Neg</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>pom</packaging>                <!-- jar: for Submodules, pom: for Root project -->
-  
+  <packaging>pom</packaging>
+  <!-- jar: for Submodules, pom: for Root project -->
   <name>Object_Oriented_TopK_HUIM_Pos_Neg</name>
   <description>Object-Oriented Top-K High Utility Itemset Mining with Uncertain database with both Positive and Negative utilities experiments</description>
   <url>http://maven.apache.org</url>
-  
   <!-- Child modules -->
   <modules>
-    <!--<module>common</module>-->      <!-- optional shared code -->
+    <!--<module>common</module>-->
+    <!-- optional shared code -->
     <module>version/ver01</module>
     <module>version/ver01_2</module>
     <module>version/ver02</module>
     <module>version/ver02_2</module>
+    <module>version/ver03</module>
   </modules>
-
   <properties>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
   </properties>
-
   <!-- Child modules -->
   <dependencyManagement>
     <dependencies>
@@ -37,7 +33,6 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
-
   <!--
   <dependencies>
     <dependency>
